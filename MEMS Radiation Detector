@@ -1,0 +1,24 @@
+MEMS Cantilever-Based Radiation Detector
+
+Overview:
+This project focuses on designing and analyzing a MEMS-based cantilever radiation detector. The detector integrates a polysilicon cantilever beam with a polystyrene coating,
+responding to gamma radiation by altering its resonant frequency. The system incorporates a piezoresistive sensor in a Wheatstone bridge circuit to detect frequency shifts,
+ensuring precise radiation level measurements.
+
+Key Features:
+	•	Gamma Radiation Detection: Sensitivity to low radiation doses, targeting detection as low as 0.13mGy.
+	•	Polystyrene Coating Sensitivity: Radiation exposure modifies material stiffness, affecting resonant frequency.
+	•	Electrostatic Actuation: Enables precise vibration control of the cantilever beam.
+	•	Piezoresistive Sensing: Provides a compact, cost-effective alternative to optical detection.
+	•	Fabrication Process: Step-by-step methodology using LPCVD, RIE, and SOI-based microfabrication techniques.
+
+Project Deliverables:
+✔ Theoretical Analysis & Equations - Governing equations for cantilever behavior and response to radiation.
+✔ Simulink Modeling - Dynamic simulation of the beam’s motion under radiation exposure.
+✔ Microcontroller Integration - Processing unit for actuation and data acquisition.
+✔ Fabrication Plan - Step-by-step process for MEMS device fabrication.
+
+Technologies Used:
+	•	MATLAB/Simulink: System modeling and response analysis.
+	•	Microcontroller (Arduino/PIC): Actuation control & data processing.
+	•	MEMS Fabrication: Thin-film deposition, etching, and lithography.
